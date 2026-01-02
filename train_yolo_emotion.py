@@ -6,7 +6,7 @@ import os
 # ----------------------------------------------------------------------
 
 EXPERIMENT_NAME = 'yolov8_emotion'
-DATASET_YAML_PATH = 'affectnet.yaml' 
+DATASET_YAML_PATH = 'emotions.yaml' 
 
 # Epocas y Batch_size para fine-tuning
 NUM_EPOCHS = 100 
