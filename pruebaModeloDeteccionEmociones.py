@@ -12,7 +12,7 @@ emotion_model_path = "./yolov8_emotion/weights/best.pt"
 model = YOLO(emotion_model_path).to(device)
 
 # RUTA DE LA IMAGEN Y SALIDA
-image_path = "./caras_extraidas/cara_1.jpg"
+image_path = "./caras_extraidas/cara_2.jpg"
 output_dir = "./emociones_extraidas"
 output_path = os.path.join(output_dir, "resultado_emocion.jpg")
 
