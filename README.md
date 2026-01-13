@@ -81,7 +81,7 @@ Contiene tanto las rutas para determinar el conjunto de datos de entrenamiento, 
 
 
 
-### fase.yaml
+### face.yaml
 
 
 
@@ -89,7 +89,21 @@ Contiene tanto las rutas para determinar el conjunto de datos de entrenamiento, 
 
 
 
+### pruebaModeloDeteccionCaras.py
 
+Script que carga el modelo entrenado de detección facial y lo ejecuta sobre imágenes de prueba ubicadas en <kbd>imagenesPruebaManual</kbd>. Recorta las regiones identificadas como rostros y las guarda individualmente en la carpeta <kbd>caras_extraidas</kbd>, permitiendo verificar la calidad de la detección de forma aislada.
+
+### pruebaModeloDeteccionEmociones.py
+
+Script diseñado para validar el modelo de clasificación de emociones. Toma imágenes de rostros recortados como entrada, predice la emoción correspondiente utilizando los pesos entrenados y guarda el resultado visual (imagen con etiqueta y probabilidad) en la carpeta <kbd>emociones_extraidas</kbd>.
+
+### train_face_yolo.py
+
+Código encargado de iniciar el entrenamiento del modelo YOLOv8 específico para la detección de caras. Lee la configuración del dataset desde ``face.yaml`` y, tras completar las épocas definidas, guarda los pesos resultantes ('best.pt' y 'last.pt') y las métricas de rendimiento en la carpeta <kbd>yolov8_face</kbd>.
+
+### train_yolo_emotion.py
+
+Código responsable del entrenamiento del modelo para la clasificación de emociones. Utiliza la configuración definida en ``emotions.yaml`` para procesar el conjunto de datos y genera los archivos de pesos, matrices de confusión y gráficas de aprendizaje que se almacenan en la carpeta <kbd>yolo_v8 emotion</kbd>.
 
 
 
