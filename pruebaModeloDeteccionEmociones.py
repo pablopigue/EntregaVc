@@ -63,7 +63,7 @@ else:
             # Dibujar rectángulo de la cara
             cv2.rectangle(img, (x1, y1), (x2, y2), color, 3)
 
-    # 7. Mostrar y Guardar
+    # Mostrar y Guardar
     cv2.imshow("Deteccion de Emociones", img)
     
     cv2.imwrite(output_path, img)

@@ -8,7 +8,7 @@ import os
 EXPERIMENT_NAME = 'yolov8_emotion'
 DATASET_YAML_PATH = 'emotions.yaml' 
 
-# Epocas y Batch_size para fine-tuning
+# Epocas y Batch_size
 NUM_EPOCHS = 100 
 BATCH_SIZE = 16 
 

@@ -8,7 +8,7 @@ import os
 EXPERIMENT_NAME = 'yolov8_face'
 DATASET_YAML_PATH = 'face.yaml' 
 
-# Épocas y Batch_size para fine-tuning
+# Épocas y Batch_size
 NUM_EPOCHS = 100 
 BATCH_SIZE = 16 
 
