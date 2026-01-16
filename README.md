@@ -69,7 +69,7 @@ python3 aplicacionFinal.py
 ```
 
 
-Durante la ejecución, saldrá una ventana emergente para conceder permisos de la cámara a la aplicación.
+Durante la ejecución, puede salir una ventana emergente para conceder permisos de la cámara a la aplicación.
 
 ### DeepFace.ipynb
 En un principio, intentamos realizar el entrenamiento y la ejecución del proyecto usando GoogleColab, pero esto no fue posible porque sobrepásabmos los tiempos de ejecución permitidos y obteníamos una penalización. No solo eso, sino que esta plataforma no permite ejecución en tiempo real. Prueba de ello es este Notebook, en el que descargamos un modelo y podemos detectar emociones a partir de fotografías. Se plantean retos como hacer la conexión entre los recursos de Google y el hardware de nuestros dispositivos.
