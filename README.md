@@ -101,11 +101,11 @@ Script diseñado para validar el modelo de clasificación de emociones. Toma im�
 
 ### train_face_yolo.py
 
-Código encargado de iniciar el entrenamiento del modelo YOLOv8 específico para la detección de caras. Lee la configuración del dataset desde ``face.yaml`` y, tras completar las épocas definidas, guarda los pesos resultantes ('best.pt' y 'last.pt') y las métricas de rendimiento en la carpeta <kbd>yolov8_face</kbd>. Destacar que como no se incluyen los datasets este archivo es simplemente para visualización de como se realizó, pues realmente su ejecución no funcionará.
+Código encargado de iniciar el entrenamiento del modelo YOLOv8 específico para la detección de caras. Lee la configuración del dataset desde ``face.yaml`` y, tras completar las épocas definidas, guarda los pesos resultantes ('best.pt' y 'last.pt') y las métricas de rendimiento en la carpeta <kbd>yolov8_face</kbd>. Destacar que como no se incluyen los datasets este archivo es simplemente para visualización de como se realizó, pues realmente su ejecución no funcionará. En caso de querer probarlo se deben descargar los datasets presentados en ``deteccion_de_emociones.pdf``.
 
 ### train_yolo_emotion.py
 
-Código responsable del entrenamiento del modelo para la clasificación de emociones. Utiliza la configuración definida en ``emotions.yaml`` para procesar el conjunto de datos y genera los archivos de pesos, matrices de confusión y gráficas de aprendizaje que se almacenan en la carpeta <kbd>yolo_v8 emotion</kbd>. Destacar que como no se incluyen los datasets este archivo es simplemente para visualización de como se realizó, pues realmente su ejecución no funcionará.
+Código responsable del entrenamiento del modelo para la clasificación de emociones. Utiliza la configuración definida en ``emotions.yaml`` para procesar el conjunto de datos y genera los archivos de pesos, matrices de confusión y gráficas de aprendizaje que se almacenan en la carpeta <kbd>yolo_v8 emotion</kbd>. Destacar que como no se incluyen los datasets este archivo es simplemente para visualización de como se realizó, pues realmente su ejecución no funcionará. En caso de querer probarlo se deben descargar los datasets presentados en ``deteccion_de_emociones.pdf``.
 
 
 
