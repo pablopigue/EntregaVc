@@ -27,7 +27,7 @@ emotion_model.to(device)
 # -----------------------------------------
 # Iniciar captura de video
 # -----------------------------------------
-cap = cv2.VideoCapture(1) # 0 para webcam, o ruta del archivo
+cap = cv2.VideoCapture(0) # 0 para webcam, o ruta del archivo
 
 if not cap.isOpened():
     raise ValueError("No se pudo abrir la cámara.")
